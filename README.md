@@ -6,6 +6,6 @@ Every sample was designed to be run on a Zynq-7000 FPGA, embedded in a Pynq-Z1 b
 
 ![Digilent Pynq-Z1 Board](img/1.png)
 
-Also, an expansion shield was developed by the teachers of the course, adding input and output functionalities to be managed by our design.
+Also, an expansion shield was developed by the teachers of the course, adding input and output functionalities to be managed by our designs.
 
-![Expansion Shield](img/1.png)
+![Expansion Shield](img/2.png)
