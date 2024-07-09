@@ -11,4 +11,4 @@ A constraints file is also provided, although it is obviously specifical for the
 
 The implemented architecture can be seen down below.
 
-![Reloj digital.](VHDL_samples/img/clock.png)
+![Reloj digital.](img/clock.png)
