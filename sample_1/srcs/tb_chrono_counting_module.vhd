@@ -1,12 +1,12 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity TbChrono is
-end TbChrono;
+entity tb_chrono_counting_module is
+end tb_chrono_counting_module;
 
-architecture Behavioral of TbChrono is
+architecture Behavioral of tb_chrono_counting_module is
 
-    component Chrono is
+    component chrono_counting_module is
     Port ( clk : in std_logic;
            reset : in std_logic;
            segundos : out std_logic_vector(3 downto 0);
@@ -33,13 +33,12 @@ architecture Behavioral of TbChrono is
 BEGIN
   
 	-- Instantiate the Unit Under Test (UUT)
-   uut: Chrono PORT MAP (
-          clk => clk,
-          reset => reset,
-          segundos => segundos,
-          dec_segundos => dec_segundos,
-          minutos => minutos,
-          dec_minutos => dec_minutos);
+	uut: chrono_counting_module PORT MAP (	clk => clk,
+											reset => reset,
+											segundos => segundos,
+											dec_segundos => dec_segundos,
+											minutos => minutos,
+											dec_minutos => dec_minutos);
 
    -- Clock process definitions
    clk_process :process

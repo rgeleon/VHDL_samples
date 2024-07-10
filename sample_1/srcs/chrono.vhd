@@ -5,14 +5,14 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 
 
-entity Practica1 is 
+entity chrono is 
     Port (  clk : in std_logic;
             reset : in std_logic;
             segmentos : out std_Logic_vector(6 downto 0);
             selector : out std_logic_vector(3 downto 0));
-end Practica1;
+end chrono;
 
-architecture Behavioral of Practica1 is
+architecture Behavioral of chrono is
         constant max_contador_int   : integer := 125000000;
         signal contador_int         : integer range 0 to max_contador_int-1;
         
