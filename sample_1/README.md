@@ -1,4 +1,6 @@
-# Digital Clock
+# Digital Stopwatch
+
+Seconds and minutes elapsed since the board reboot will be counted.
 
 - Internal clock frequency: 125 MHz
 - Clock counting frequency: 1 Hz
