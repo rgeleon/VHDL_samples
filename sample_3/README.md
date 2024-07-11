@@ -16,5 +16,6 @@ The structural description of the whole system is then as follows:
 
 ![](img/all.png)
 
+Implementation was divided between two stages, first programming and verifying the debouncing module through Test Bench simulation in Vivado; secondly adding the FSM and testing it directly on hardware by generating its properly bitstream.
 
 
