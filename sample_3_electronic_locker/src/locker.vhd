@@ -16,13 +16,13 @@ architecture structural of locker is
 
 begin
 
-	Antirebotes_A : entity work.Antirrebotes
+	Antirebotes_A : entity work.antirrebotes
 	port map (
 		clk => clk,
 		reset => reset,
 		boton => Boton_A,
 		filtrado => a);
-	Antirebotes_B : entity work.Antirrebotes
+	Antirebotes_B : entity work.antirrebotes
 	port map (
 		clk => clk,
 		reset => reset,
